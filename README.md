@@ -26,6 +26,7 @@ The list is not sorted or prioritized in any particular way, but I have grouped 
 | Title | Description |
 | :--- | :--- | 
 | Debug = false | Seems like the most obvious thing in the world, but I still stumble upon sites with compilation debug set to true in production environments  |
+| Enviroment Setting | Change the enviroment setting in the web.config file |
 | Force WWW | To keep consistent URLs on my site, I like to force my website to be visited with the WWW prefix. One way to ensure this is using a simple [URL rewrite rule](http://stackoverflow.com/questions/10153670/microsoft-rewriting-module-force-www-on-url-or-remove-www-from-url)
 | Verify all paths | Search for ":\" and "\\\\" in all config files and check that all paths are correct  |
 | Verify appsettings and connectionstring | make sure they have the correct values for production environment |
